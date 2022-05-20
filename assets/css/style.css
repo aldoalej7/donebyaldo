@@ -4,6 +4,7 @@
     padding: 0;
 
     box-sizing: border-box;
+
 }
 
 body {
@@ -21,6 +22,7 @@ header h1 {
     font-size: 50px;
     color: #fce138;
     margin: 0;
+    display: inline;
 }
 
 header a {
@@ -42,5 +44,44 @@ header nav ul li a {
     font-weight: lighter;
     font-size: 30px;
 }
+ section {
+     padding: 50px;
+ }
+
+section h2 {
+    font-size: 50px;
+}
+
+.about img {
+    width: 20%;
+    margin: 10px 0;
+}
+
+.about p {
+    text-align: center;
+}
+
+.contact {
+    text-align: center;
+    background: black;
+}
+
+.contact-info {
+    font-size: larger;
+    font-weight: bold;
+}
+
+.projects {
+    column-width: auto;
+}
+
+@media screen and (max-width: 768px) {
+    main,
+    nav {
+        flex-direction: column;
+    }
+}
+
+
 
 
